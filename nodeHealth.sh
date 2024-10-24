@@ -9,7 +9,9 @@
 # Version: v1
 ########################################
 
-#set -x # where x is debugging
+set -x # where x is debugging
+set -e #exit the script when the script fail
+set -o pipefail
 
 df -h
 

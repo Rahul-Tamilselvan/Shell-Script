@@ -9,7 +9,7 @@
 # Version: v1
 ########################################
 
-set -x # where x is debugging
+#set -x # where x is debugging
 
 df -h
 

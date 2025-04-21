@@ -1,5 +1,5 @@
 for I in {1..10}
 do
-	echo $(date)
+	echo $(date) | awk -F " " '{print $1,$2,$3,$4}'
 	sleep 1
 done
